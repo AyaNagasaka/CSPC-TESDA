@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registration Form</title>
+<link rel="stylesheet" href="/CSS/RF-style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body><br><br>
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+	<a href="courses.html" id="scroll-back">Back</a>
+<table width="850" border="2" align="center">
+	<tr>
+		<td>
+			<center><h1>REGISTRATION FORM</h1></center>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="850" border="1" class="bor">
+				<tr>
+					<div class="site-identity">
+						<a href="#"><img src="TESDA LOGOO.png" alt="" /></a>
+						<h3> 	Technical Education and Skills <br>Development Authority Pangasiwaan sa Edukasyong Teknikal at Pagpapaunlad ng Kasanayan	</h3>
+					</div>  
+					<div class="site-identityy">
+						<h3>MIS 03 – 01 <br>(ver. 2020)</h3>	
+					</div> 
+				</tr>
+				<tr>
+					<td height="60" colspan="2">
+						<div align="center"><strong><h1>Registration Form</h1></strong></div>
+					</td>
+				</tr>
+				<tr>
+					<td height="60" colspan="2">
+						<div align="left"><strong><h2>LEARNERS PROFILE FORM</h2> </strong></div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>Insert Image: <input type = "file" name ="Image" id = "image"></h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>1. T2MIS Auto Generated</h2></strong></td>
+				</tr>
+				<tr>
+					<table width="850" border="0" bordercolor="#000000">
+						<tr>
+							<td>
+								<h3>1.1.	Unique Learner Identifier (ULI) Number:	<input type="number" id="Number" name="number"></h3>
+							</td>
+							<td>
+								<h3>1.2.   Entry Date: <input type="date" id="Number" name="number"></h3>
+							</td>
+						</tr>
+					</table>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>2. Learner/Manpower Profile</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="center">
+										<strong>2.1.	Name:</strong>	
+									</div>
+								</td>
+								<td>
+									<div align="center">
+										<strong>Last Name, Extension Name(Jr., Sr.): <br><br>
+											<input type="text" name="LastName" id = "lastName">
+										</strong>
+									</div>
+								</td>
+								<td><div align="center"><strong>First Name(Jr., Sr.): <br><br><input type="text" name="FirstName" id = "firstName"></strong></div></td>
+								<td><div align="center"><strong>Middle Name: <br><br><input type="text" name="MiddleName" id = "middleName"></strong></div></td>
+							</tr><br>
+							<tr>
+								<td><div align="center"><br><br><strong>2.2.	Complete Permanent Mailing Address:</strong></div></td>
+								<td><div align="center"><strong>Number, Street: <br><br><input type="text" name="Street" id = "street"></strong></div></td>
+								<td><div align="center"><strong>Barangay: <br><br><input type="text" name="Barangay" id = "barangay"></strong></div></td>
+								<td><div align="center"><strong>District: <br><br><input type="text" name="District" id = "district"></strong></div></td>
+								<tr><td></td><td><div align="center"><strong>City/Municipality: <br><br><input type="text" name="Muni" id = "muni"></strong></div></td>
+								<td><div align="center"><strong>Province: <br><br><input type="text" name="Prov" id = "prov"></strong></div></td>
+								<td><div align="center"><strong>Region: <br><br><input type="text" name="Region" id = "region"></strong></div></td></tr>
+								<tr><td></td><td><div align="center"><strong>Email Address/Facebook Account: <br><br><input type="text" name="Email" id = "email"></strong></div></td>
+								<td><div align="center"><strong>Contact No: <br><br><input type="number" name="ContactNum" id = "contactNum"></strong></div></td>
+								<td><div align="center"><br><strong>Nationality: <br><br><input type="text" name="Nationality" id = "nationality"></strong></div><br></td></tr>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>3. Personal Information </h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="1" bordercolor="#000000">
+							<tr>
+								<td colspan="2">
+									<div align="left">
+										<strong>    3.1. Sex: <br><br>
+											<input type="checkbox" name="Male" id = "male">Male <br>
+											<input type="checkbox" name="Female" id = "female">Female<br>
+										</strong>
+									</div>
+								</td>
+								<td colspan="2">
+									<div align="left"><br><br>
+										<strong>    3.2.  Civil Status: <br><br>
+											<input type="checkbox" name="Single" id = "single">Single<br>
+											<input type="checkbox" name="Married" id = "married">Married<br>
+											<input type="checkbox" name="Wid" id = "wid">Widower<br>
+											<input type="checkbox" name="Sep" id = "sep">Separated<br>
+											<input type="checkbox" name="Solo" id = "solo">Solo Parent<br><br>
+										</strong>
+									</div><br>
+								</td>
+								<td colspan="2">
+									<div align="left">
+										<strong>   3.3   Employment  Status (before the training) <br><br>
+											<input type="checkbox" name="Emp" id = "emp">Employed<br>
+											<input type="checkbox" name="Un id = "un">Unemployed<br>
+										</strong>
+									</div>
+								</td>
+							</tr>
+						</table>
+						<tr>
+							<td colspan="2">
+								<table width="850" border="0" bordercolor="#000000">
+									<tr><br><br>
+										<td><div align="center"><strong>3.4 Birthdate:</strong></div></td>
+										<td><div align="center"><strong>Month of Birth: <br><br><input type="month" name="Month" id = "month"></strong></div></td>
+										<td><div align="center"><strong>Day of Birth: <br><br><input type="number" name="Day" id = "day"></strong></div></td>
+										<td><div align="center"><strong>Year of Birth: <br><br><input type="number" name="Year" id = "year"></strong></div></td>
+										<td><div align="center"><strong>Age: <br><br><input type="number" name="Age" id = "age"></strong></div></td>
+									</tr>
+								</table><br><br>
+							<td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<table width="850" border="0" bordercolor="#000000">
+									<tr><br><br>
+										<td><div align="center"><strong>3.5 Birthplace:</strong></div></td>
+										<td><div align="center"><strong>City/Municipality: <br><br><input type="text" name="Month" id = "month"></strong></div></td>
+										<td><div align="center"><strong>Province: <br><br><input type="text" name="Day" id = "day"></strong></div></td>
+										<td><div align="center"><strong>Region: <br><br><input type="text" name="Year" id = "year"></strong></div></td>
+									</tr>
+								</table><br><br>
+							<td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<table width="850" border="0" bordercolor="#000000">
+									<tr><br>
+										<td>
+											<div align="left">
+												<strong>3.6  Educational Attainment Before the Training (Trainee)</strong>
+											</div>
+										</td>
+									</tr>
+								</table><br>
+							<td>
+						</tr>
+						<tr>
+							<td>
+								<table width="850" border="1" bordercolor="#000000">
+									<tr>
+										<td>
+											<div align="left">
+												<strong>
+													<br><input type="checkbox" name="NoGrade" id = "noGrade">No Grade Completed
+												</strong>
+											</div><br>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="PreSchool" id = "preSchool">Pre-School (Nursery/Kinder/Prep)
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="HighSchoolUn" id = "highSchoolun">High School Undergraduate
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="HighSchool" id = "highSchool">High School Graduate
+												</strong>
+											</div>
+										</td>
+									</tr><br>
+									<tr><br><br>
+										<td>
+											<div align="left">
+												<strong>
+													<br><input type="checkbox" name="ElemUn" id = "elemUn">Elementary Undergraduate
+												</strong>
+											</div><br>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Psu" id = "psu">Post Secondary Undergraduate
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Cu" id = "cu">College Undergraduate
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Cgh" id = "cgh">College Graduate or Higher
+												</strong>
+											</div>
+										</td>
+									</tr>
+									<tr><br><br>
+										<td>
+											<div align="left">
+												<strong>
+													<br><input type="checkbox" name="Eg" id = "eg">Elementary Graduate
+												</strong>
+											</div><br>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Psg" id = "psg">Post Secondary Graduate
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Jhg" id = "jhg">Junior High Graduate
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="left">
+												<strong>
+													<input type="checkbox" name="Shg" id = "shg">Senior High Graduate
+												</strong>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<table width="850" border="0" bordercolor="#000000">
+									<tr><br>
+										<td>
+											<div align="left">
+												<strong>3.7 Parent/Guardian</strong>
+											</div>
+										</td>
+										<td>
+											<div align="center">
+												<strong>Name: <br><br>
+													<input type="text" name="Name" id = "name">
+												</strong>
+											</div>
+										</td>
+										<td>
+											<div align="center">
+												<strong>Complete Permanent Mailing Address: <br><br>
+													<input type="text" name="Cpma" id = "cpma">
+												</strong>
+											</div>
+										</td>
+									</tr>
+								</table><br>
+							<td>
+						</tr>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>4. Learner/Trainee/Student (Clients) Classification: </h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="1" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="NoGrade" id = "noGrade"> 4Ps Beneficiary
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="PreSchool" id = "preSchool">Agrarian Reform Beneficiary
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchoolUn" id = "highSchoolun">Balik Probinsya 
+										</strong>
+									</div>
+								</td>
+							</tr><br>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchool" id = "highSchool">Displaced Workers 
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="ElemUn" id = "elemUn">Drug Dependents Surrenderees/Surrenderers 
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Psu" id = "psu">Family Members of AFP and PNP Killed-in-Action
+										</strong>
+									</div>
+								</td>
+							</tr>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cu" id = "cu">Family Members of AFP and PNP Wounded in-Action
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cgh" id = "cgh">Farmers and Fishermen
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">Indigenous People & Cultural Communities
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Psg" id = "psg">Industry Workerse
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Jhg" id = "jhg">Inmates and Detainees 
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Shg" id = "shg">MILF Beneficiary 
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="NoGrade" id = "noGrade">Out-of-School-Youth
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="PreSchool" id = "preSchool">Overseas Filipino Workers (OFW) Dependents
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchoolUn" id = "highSchoolun">RCEF-RESP 
+										</strong>
+									</div>
+								</td>
+							</tr><br>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchool" id = "highSchool">Rebel Returnees/Decommissioned Combatants 
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="ElemUn" id = "elemUn">Returning/Repatriated Overseas Filipino Workers (OFW) 
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Psu" id = "psu">Student
+										</strong>
+									</div>
+								</td>
+							</tr>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cu" id = "cu">TESDA Alumni
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cgh" id = "cgh">TVET Trainers
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">Uniformed Personnel
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Psg" id = "psg">Victim of Natural Disasters and Calamities
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Jhg" id = "jhg">Wounded-in-Action AFP & PNP Personnel 
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Shg" id = "shg">Others: <input type="text" name="Others" id = "other" placeholder="(Please Specify)"> 
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>5. Type of Disability (for Persons with Disability Only): To be filled up by the TESDA personnel</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="1" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="NoGrade" id = "noGrade"> Mental/Intellectual
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="PreSchool" id = "preSchool"> Visual Disability
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchoolUn" id = "highSchoolun"> Orthopedic (Musculoskeletal) Disability
+										</strong>
+									</div>
+								</td>
+							</tr><br>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="HighSchool" id = "highSchool">	Hearing Disability 
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="ElemUn" id = "elemUn">	Speech Impairment
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Psu" id = "psu">	Multiple Disabilities, specify
+										</strong>
+									</div>
+								</td>
+							</tr>
+							<tr><br><br>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cu" id = "cu">	Psychosocial Disability
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<input type="checkbox" name="Cgh" id = "cgh">	Disability Due to Chronic Illness
+										</strong>
+									</div>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	Learning Disability
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>6. Causes of Disability (for Persons with Disability Only): To be filled up by the TESDA personnel</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="1" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	Congenital/Inborn
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	Illness
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	Injury
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>7. Name of Course/Qualification</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<h3>Course/Qualification:	<input type="number" id="Number" name="number"></h3>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2>8.  If Scholar, What Type of Scholarship Package (TWSP, PESFA, STEP, others)?</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	TWSP
+										</strong>
+									</div><br>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	PESFA
+										</strong>
+									</div><br>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	STEP
+										</strong>
+									</div><br>
+									<div align="left">
+										<strong>
+											<br><input type="checkbox" name="Eg" id = "eg">	Others: <input type="text" name="Eg" id = "eg" placeholder="(Please Specify: )">
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2> 9. Privacy Disclaimer</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<h3>I hereby allow TESDA to use/post my contact details, name, email, cellphone/landline nos. and other information I provided which may be used for processing of my scholarship application, for employment opportunities and for the survey of TESDA programs.<br></h3>
+									<input type="checkbox" id="Number" name="number"> Agree
+									<input type="checkbox" id="Number" name="number"> Disagree<br><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" bgcolor="#CCCCCC"><strong><h2> 10.  Applicant’s Signature</h2></strong></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="center">
+										<strong>
+											<h2>This is to certify that the information stated above is true and correct.<br></h2></strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table width="850" border="0" bordercolor="#000000">
+							<tr>
+								<td>
+									<div align="center">
+										<strong>
+											<h3>APPLICANT’S SIGNATURE OVER PRINTED NAME:<input type="file"  name="image" id = "Image"></h3>
+										</strong>
+									</div><br>
+								</td>
+								<td>
+									<div align="center">
+										<strong>
+											<h3>DATE ACCOMPLISHED:<input type="date"  name="Date" id = "date"></h3>
+										</strong>
+									</div><br>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>	
+	</tr>
+</table><br><br>
+<table width="850" border="1" align="center">
+	<tr>
+		<td>
+			<center><h1>SELF ASSESSMENT GUIDE FORM</h1></center>
+		</td>
+	</tr>
+	<tr>
+		<td height="60" colspan="2">
+			<div class="site-identityy" align="left">
+				<strong>
+					<h3>TESDA-OP-QSO-02-F07  <br> Rev. No. 00 03/01/17  </h3>
+				</strong>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="850" border="0" class="bor">
+				<tr>
+					<td>
+						<h3>Reference No: <input type="number" pattern="[0-9]*" value="123" /></h3>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h1>Self Assessment Guide Form</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="850" border="1" class="bor">
+				<tr>
+					<td>
+						<h3>  Qualification: </h3>
+					</td>
+					<td>
+						<h3>  PV SYSTEM DESIGN NC III </h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>  Project:  </h3>
+					</td>
+					<td>
+						<h3>  PREPARE PV SYSTEM DESIGN </h3>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3> Units of Competency Covered:  </h3>
+					</td>
+					<td>
+						<h3> * Determine Customer Requirements </h3>
+						<h3> * Calculate System Component Requirements (System Sizing) </h3>
+						<h3> * Specify Components in Bill of Materials </h3>
+						<h3> * Prepare Installation Drawing </h3>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h2> Instruction: </h2>
+			<h2>       * Read each of the questions in the left-hand column of the chart. </h2>
+			<h2>       * Place a check in the appropriate box opposite each question to indicate your answer.  </h2>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="870" border="1" class="bor">
+				<tr align ="center">
+					<td>
+						<h1>  Can I? </h1>
+					</td>
+					<td>
+						<h1>  YES  </h1>
+					</td>
+					<td>
+						<h1>  NO  </h1>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Conduct interview to customer/client in accordance with established procedures*   </h2>
+					</td>
+					<td>
+						<h2>  <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Accomplish forms for load and site assessment in accordance with established procedures* </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Conduct assessment of current and future electrical needs of the customer/client and recommend options*    </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Calculate energy demand based on customer requirement*   </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Calculate system size and select component requirements according to set safety standards, market availability, cost, environmental factors, and geographic location* </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Prepare bill of quantities on prescribed format based on the system sizing* </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Prepare standard electrical plan and mechanical drawings in accordance with established procedures*  </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Identify the different PV system components and their respective parameters/operating ranges*   </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h2> * Identify the basic principles of electricity* </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="yes" id = "ye"> Yes </h2>
+					</td>
+					<td>
+						<h2> <input type="radio" name="no" id = "noo"> No </h2>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h2> I agree to undertake assessment in the knowledge that information gathered will only be used for professional development purposes and can only be accessed by concerned assessment personnel and my manager/supervisor. </h2>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table width="850" border="0" class="bor">
+				<tr>
+					<td>
+						<h3>Candidate’s Name & Signature: <input type="file" id="myfile" name="myfile" /></h3>
+					</td>
+					<td>
+						<h3>Date:: <input type="date" id="date" name="datee" /></h3>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="site-identityy" align="right">
+				<strong>
+					<h3>CONPVD308-0811  <br> PV System Design NC III  </h3>
+				</strong>
+			</div>
+		</td>
+	</tr>
+</table><br><br>
+</body>
+<script>
+	$(document).ready(function(){ 
+		$(window).scroll(function(){ 
+			if ($(this).scrollTop() > 100) { 
+				$('#scroll').fadeIn(); 
+			} else { 
+				$('#scroll').fadeOut(); 
+			} 
+		}); 
+		$('#scroll').click(function(){ 
+			$("html, body").animate({ scrollTop: 0 }, 600); 
+			return false; 
+		}); 
+	});
+</script>
+</html>

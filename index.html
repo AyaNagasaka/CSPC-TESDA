@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSPC TESDA Online Registration and Assessment using QR Code and SMS Notification</title>
+    <link rel="stylesheet" href="/CSS/index-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-wrapper">
+                <div>
+                    <img src="/Images/CSPC-logo.png" alt="CSPC">
+                </div>
+                <div>
+                    <h1>CSPC TESDA Online Registration and Assessment using QR Code and SMS Notification</h1>
+                </div>
+                <div>
+                    <img src="/Images/TESDA-logo.png" alt="TESDA">
+                </div>
+            </div>
+            <hr class="divider">
+        </header>
+        <main>
+            <div class="btn-wrapper">
+                <div class="btn-item">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login-modal">Admin</button>
+                </div>
+                <div class="btn-item">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#login-modal">Applicant</button>
+                </div>
+            
+
+                <!-- modal Login -->
+                <div id="login-modal" class="modal fade" role="dialog">
+                    <form class="modal-content" action="courses.html">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Member Login</h3>
+                        </div>
+
+                        <div class="modal-body text-container">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input type="text" name="uname" class="form-control" placeholder="Username" required>
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input type="password" name="psw" class="form-control" placeholder="Enter Password" required>
+                            </div>
+                            <a href="#" >Forgot password?</a>
+                            <input type="submit" class="btn2 btn-info" value="Login" href="courses.html">
+                            <label class="checkbox-inline"><input type="checkbox" value="remember">Remember Me</label> 
+                        </div> 
+                        <div class="modal-footer">
+                            <p>Don't have an account? <a data-toggle="modal" data-target="#signup-modal">Signup now</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- modal Signup -->
+            <div id="signup-modal" class="modal fade" role="dialog">
+                <form class="modal-content content-2" action="courses.html">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <img src="/Images/img_avatar2.png" alt="Avatar" class="img-circle">
+                        <h3 class="modal-title">Signup Form</h3>
+                        <p>Please fill in this form to create an account</p>
+                    </div>
+
+                    <div class="modal-body text-container2">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input type="text" name="fname" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input type="text" name="lname" class="form-control" placeholder="Last Name" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                            <input type="email" name="email" class="form-control" placeholder="xxx@example.com" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input type="password" name="psw" class="form-control" placeholder="Enter Password" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input type="password" name="psw-repeat" class="form-control" placeholder="Re-enter Password" required>
+                        </div> 
+                        <button type="submit" class="btn2 btn-info" value="Login">Create Account</button>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
+                        <p>Already have an account? <a data-dismiss="modal">Login here</a></p>
+                    </div>
+                </form>
+            </div>   
+        </main>
+
+        <footer>
+            &copy; Copyright 2021
+        </footer>
+    </div>
+</body>
+<script>
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</html>
